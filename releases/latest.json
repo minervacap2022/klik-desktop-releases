@@ -1,8 +1,9 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.9",
   "platform": "macos-arm64",
-  "downloadUrl": "https://storage.googleapis.com/klik-desktop-releases/v1.0.5/Klik-arm64.dmg",
-  "bytes": 5674828205,
-  "sha256": "035fe9d5bf8dcb158c7cfdc290eba5daed1c9c40c398c25902a50386a4695bcc",
-  "sourceCommit": "4eaed3c6050f3810d337c9354cda516f7337cf44"
+  "downloadUrl": "https://storage.googleapis.com/klik-desktop-releases/v1.0.9/Klik-arm64.dmg",
+  "bytes": 5675367799,
+  "sha256": "e88302ae6b15482145ec7eacefa9f5d28e83bc4c98f1624f919166195a891d37",
+  "sourceCommit": "ea28d6d4aafe944a80e0bb0d3bcbb1962a03e127",
+  "otaManifestUrl": "https://storage.googleapis.com/klik-desktop-releases/ota/macos-arm64/latest.json"
 }
