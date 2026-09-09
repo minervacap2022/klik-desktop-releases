@@ -5,5 +5,6 @@
   "bytes": 5675367799,
   "sha256": "e88302ae6b15482145ec7eacefa9f5d28e83bc4c98f1624f919166195a891d37",
   "sourceCommit": "ea28d6d4aafe944a80e0bb0d3bcbb1962a03e127",
-  "otaManifestUrl": "https://storage.googleapis.com/klik-desktop-releases/ota/macos-arm64/latest.json"
+  "otaManifestUrl": "https://storage.googleapis.com/klik-desktop-releases/ota/macos-arm64/latest.json",
+  "stableDownloadUrl": "https://storage.googleapis.com/klik-desktop-releases/latest/Klik-arm64.dmg"
 }
