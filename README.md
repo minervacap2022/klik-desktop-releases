@@ -2,27 +2,29 @@
 
 Public downloads and release notes for Klik Desktop.
 
-The application source is maintained separately. This repository contains only
-release metadata and helper scripts for assembling large release artifacts.
+## Download
 
-## macOS installation
+### [Download Klik Desktop for Apple Silicon — single DMG (5.3 GB)](https://storage.googleapis.com/klik-desktop-releases/v1.0.0/Klik-arm64.dmg)
 
-Klik Desktop currently supports Apple Silicon Macs (`arm64`). The complete app
-includes local speech and language models, so its DMG is larger than GitHub's
-2 GiB per-asset limit and is published as numbered parts.
+Open the downloaded DMG and drag **Klik** into **Applications**.
 
-1. Download every `Klik-arm64.dmg.part-*` file from the same release.
-2. Put all parts in one directory.
-3. Download `assemble-macos.sh`, then run:
+- Version: `1.0.0`
+- Platform: macOS Apple Silicon (`arm64`)
+- SHA-256: `738fb53e8f663f04dfed75ded9eb44494309bf0f67cb52ada0547d3d46701bb0`
 
-   ```bash
-   chmod +x assemble-macos.sh
-   ./assemble-macos.sh
-   ```
+The app includes its local speech and language models in the single download.
+For recording conversion, install FFmpeg with `brew install ffmpeg`.
 
-4. Open `Klik-arm64.dmg` and drag Klik into Applications.
+> The current build is ad-hoc signed and not notarized. If macOS displays a
+> verification warning, Control-click Klik and choose **Open**.
 
-The script verifies the assembled DMG against `Klik-arm64.dmg.sha256`.
+## GitHub fallback
 
-> The current build is ad-hoc signed, not notarized. On first launch, macOS may
-> require Control-clicking Klik and choosing **Open**.
+GitHub limits individual release assets to 2 GiB. For users who cannot use the
+single-download link, each release also provides numbered DMG parts and an
+`assemble-macos.sh` helper. Download every part into one directory and run:
+
+```bash
+chmod +x assemble-macos.sh
+./assemble-macos.sh
+```

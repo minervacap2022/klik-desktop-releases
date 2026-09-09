@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "platform": "macos-arm64",
+  "downloadUrl": "https://storage.googleapis.com/klik-desktop-releases/v1.0.0/Klik-arm64.dmg",
+  "bytes": 5674638650,
+  "sha256": "738fb53e8f663f04dfed75ded9eb44494309bf0f67cb52ada0547d3d46701bb0",
+  "sourceCommit": "e5452c7ed90253410cc549f0775917c2a1e0ec5a"
+}
