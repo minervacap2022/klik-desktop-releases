@@ -8,11 +8,11 @@ Public downloads and release notes for Klik Desktop.
 
 Open the downloaded DMG and drag **Klik** into **Applications**.
 
-- Version: `1.0.5`
+- Version: `1.0.9`
 - Platform: macOS Apple Silicon (`arm64`)
-- SHA-256: `035fe9d5bf8dcb158c7cfdc290eba5daed1c9c40c398c25902a50386a4695bcc`
+- SHA-256: `e88302ae6b15482145ec7eacefa9f5d28e83bc4c98f1624f919166195a891d37`
 
-The app includes its local speech and language models in the single download.
+The app includes its local speech and language models in the single download. Version 1.0.9 also checks for resumable in-app updates in Settings.
 For recording conversion, install FFmpeg with `brew install ffmpeg`.
 
 > The current build is ad-hoc signed and not notarized. If macOS displays a
