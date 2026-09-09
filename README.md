@@ -4,7 +4,7 @@ Public downloads and release notes for Klik Desktop.
 
 ## Download
 
-### [Download Klik Desktop for Apple Silicon — single DMG (5.3 GB)](https://storage.googleapis.com/klik-desktop-releases/v1.0.0/Klik-arm64.dmg)
+### [Download Klik Desktop for Apple Silicon — single DMG (5.3 GB)](https://minervacap2022.github.io/klik-desktop-releases/download.html)
 
 Open the downloaded DMG and drag **Klik** into **Applications**.
 
